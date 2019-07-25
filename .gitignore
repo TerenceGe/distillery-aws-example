@@ -18,6 +18,7 @@ erl_crash.dump
 /priv/static
 
 *.pem
+*.out
 *.tar.gz
 
 /config/*.toml

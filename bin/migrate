@@ -18,6 +18,11 @@ set -o allexport
 source ./etc/environment
 set +o allexport
 
+value1=`cat /etc/network-environment`
+echo "$value1"
+value2=`cat ./etc/environment`
+echo "$value2"
+
 bin/distillery_example migrate
 
 exit $?
