@@ -141,7 +141,7 @@ function destroy_resources(){
         fi
     done
     # Delete infra stack
-    delete_stack "${STACK_NAME}-production"
+    delete_stack "${APP_NAME}-production"
     # Delete pipeline stack
     delete_stack "${STACK_NAME}"
     # Delete log groups
