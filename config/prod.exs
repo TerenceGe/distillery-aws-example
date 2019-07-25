@@ -6,8 +6,7 @@ config :distillery_example, ExampleWeb.Endpoint,
   version: Application.spec(:distillery_example, :vsn)
 
 config :distillery_example, Example.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  pool_size: 10
+  adapter: Ecto.Adapters.Postgres
 
 config :logger,
   level: :info,
