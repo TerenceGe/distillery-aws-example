@@ -15,3 +15,6 @@ hooks:
       timeout: 300
     - location: bin/start
       timeout: 3600
+  ValidateService:
+    - location: bin/healthz
+      timeout: 3600
